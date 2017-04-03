@@ -1,0 +1,19 @@
+---
+title: "Sponsors"
+---
+
+<div class="row">
+  {% for sponsor in site.data.sponsors %}
+    <div class="col-xs-6 col-md-3 sponsor-item">
+      <div class="sponsor-image">
+        <a href="{{ sponsor.url }}" target="_blank">
+          {% assign image_url = "/images/sponsors/" | append: sponsor.image_name | relative_url %}
+          <img src="{{ image_url }}" width="200px">
+        </a>
+      </div>
+      <br />
+      <strong>{{ sponsor.name }}</strong>
+      <p>{{ sponsor.description }}</p>
+    </div>
+  {% endfor %}
+</div>

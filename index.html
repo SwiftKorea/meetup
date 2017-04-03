@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+{% for section in site.sections %}
+  <section id="{{ section.title | slugify }}">
+    <h2>{{ section.title }}</h2>
+    {{ section.content }}
+  </section>
+{% endfor %}

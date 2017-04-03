@@ -1,0 +1,73 @@
+---
+title: "Schedule"
+---
+
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <th>#</th>
+      <th>시간</th>
+      <th>일정</th>
+    </thead>
+
+    <tbody>
+      {% assign times = site.data.sessions | map: "time" | uniq %}
+      <tr>
+        <td>-</td>
+        <td>20:00 - 20:15</td>
+        <td>
+          <span>오프닝</span>
+          <br />
+          <small>전수열</small>
+        </td>
+      </tr>
+      {% for time in times %}
+        <tr>
+          <td>#{{ time | plus: 1 }}</td>
+          <td>
+            {% if time == 0 %}
+              {% assign time_str = "20:15 - 20:30" %}
+            {% elsif time == 1 %}
+              {% assign time_str = "20:30 - 20:45" %}
+            {% elsif time == 2 %}
+              {% assign time_str = "20:45 - 21:00" %}
+            {% elsif time == 3 %}
+              {% assign time_str = "21:00 - 21:15" %}
+            {% elsif time == 4 %}
+              {% assign time_str = "21:15 - 21:30" %}
+            {% elsif time == 5 %}
+              {% assign time_str = "21:30 - 21:45" %}
+            {% elsif time == 6 %}
+              {% assign time_str = "21:45 - 22:00" %}
+            {% else %}
+              {% assign time_str = time %}
+            {% endif %}
+            <span class="hidden-sm-down">{{ time_str }}</span>
+            <span class="hidden-md-up">{{ time_str | split: "-" | first }}</span>
+          </td>
+          {% for session in site.data.sessions %}
+            {% if session.time == time %}
+              <td class="cell-session">
+                {% assign session_id = "session"
+                  | append: "-time-"
+                  | append: session.time %}
+                <a href="#{{ session_id }}">{{ session.title }}</a>
+                <br />
+                {% if session.speaker.company != empty %}
+                  <small class="hidden-sm-down">
+                    {{ session.speaker.name }} ({{ session.speaker.company }})
+                  </small>
+                  <small class="hidden-md-up">
+                    {{ session.speaker.name }}
+                  </small>
+                {% else %}
+                  <small>{{ session.speaker.name }}</small>
+                {% endif %}
+              </td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

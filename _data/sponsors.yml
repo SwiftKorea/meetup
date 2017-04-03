@@ -1,0 +1,14 @@
+- name: Hyperconnet
+  url: https://hpcnt.com
+  image_name: hyperconnect.png
+  description: 장소 및 간식 제공
+
+- name: StyleShare
+  url: https://www.stylesha.re
+  image_name: styleshare.png
+  description: 기념품 티셔츠 및 StyleShare 스토어 10% 할인 쿠폰 제공
+
+- name: 직방
+  url: https://zigbang.com
+  image_name: zigbang.png
+  description: TBD

@@ -1,0 +1,62 @@
+---
+title: "Sessions"
+---
+
+<ul class="media-list">
+  {% for session in site.data.sessions %}
+    {% assign session_id = "session"
+      | append: "-time-"
+      | append: session.time %}
+    <li class="media session" id="{{ session_id }}">
+      <div class="media-left">
+        {% if session.speaker.image_name and session.speaker.image_name != '' %}
+          {% assign image_url = "/images/speakers/" | append: session.speaker.image_name | relative_url %}
+        {% else %}
+          {% assign image_url = site.logo_image | absolute_url %}
+        {% endif %}
+        <div class="media-object float-sm-left rounded-circle speaker-image"
+          style="background-image: url('{{ image_url }}')" />
+      </div>
+      <div class="media-body content">
+        <small class="time">
+          {% if session.time == 0 %}
+            {% assign time_str = "20:15 - 20:30" %}
+          {% elsif session.time == 1 %}
+            {% assign time_str = "20:30 - 20:45" %}
+          {% elsif session.time == 2 %}
+            {% assign time_str = "20:45 - 21:00" %}
+          {% elsif session.time == 3 %}
+            {% assign time_str = "21:00 - 21:15" %}
+          {% elsif session.time == 4 %}
+            {% assign time_str = "21:15 - 21:30" %}
+          {% elsif session.time == 5 %}
+            {% assign time_str = "21:30 - 21:45" %}
+          {% elsif session.time == 6 %}
+            {% assign time_str = "21:45 - 22:00" %}
+          {% else %}
+            {% assign time_str = time %}
+          {% endif %}
+          {{ time_str }}
+        </small>
+        <h5>{{ session.title }}<a href="#{{ session_id }}">🔗</a></h5>
+        <p class="summary">
+          {{ session.summary }}
+          {% if session.slide and session.slide != empty %}
+            <a href="{{ session.slide }}" target="_blank">(슬라이드 보기)</a>
+          {% endif %}
+        </p>
+        <div class="speaker">
+          <p class="name">{{ session.speaker.name }}</p>
+          <ul>
+            {% if session.speaker.company and session.speaker.company != '' %}
+              <li class="company">{{ session.speaker.company }}</li>
+            {% endif %}
+            {% if session.speaker.bio and session.speaker.bio != '' %}
+              <li class="bio">{{ session.speaker.bio }}</li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

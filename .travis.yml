@@ -1,0 +1,19 @@
+language: objective-c
+sudo: false
+python:
+  - "2.7"
+rvm:
+  - "2.2"
+cache:
+  - bundler
+
+install:
+  - bundle install --deployment
+  - pip install -r requirements.txt
+
+deploy:
+  provider: script
+  script: make deploy
+  skip_cleanup: true
+  on:
+    branch: master
