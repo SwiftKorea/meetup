@@ -5,7 +5,7 @@ title: "Schedule"
 <div class="table-responsive">
   <table class="table">
     <thead>
-      <th>#</th>
+      <th class="hidden-xs-down">#</th>
       <th>시간</th>
       <th>일정</th>
     </thead>
@@ -13,8 +13,11 @@ title: "Schedule"
     <tbody>
       {% assign times = site.data.sessions | map: "time" | uniq %}
       <tr>
-        <td>-</td>
-        <td>20:00 - 20:15</td>
+        <td class="hidden-xs-down">-</td>
+        <td>
+          <span class="hidden-sm-down">20:00 - 20:15</span>
+          <span class="hidden-md-up">20:00</span>
+        </td>
         <td>
           <span>오프닝</span>
           <br />
@@ -23,7 +26,7 @@ title: "Schedule"
       </tr>
       {% for time in times %}
         <tr>
-          <td>#{{ time | plus: 1 }}</td>
+          <td class="hidden-xs-down">#{{ time | plus: 1 }}</td>
           <td>
             {% if time == 0 %}
               {% assign time_str = "20:15 - 20:30" %}
