@@ -1,69 +1,69 @@
 - time: 0
   title: "GitHub을 이용한 Self Branding"
-  summary: ""
+  summary: "// MARK: TODO"
   speaker:
     image_name: "younatics.jpg"
     name: "이승윤"
     company: "직방"
-    bio: "TBD"
+    bio: "// MARK: TODO"
 
 - time: 1
   title: "Reactive Programming with Swift"
-  summary: ""
+  summary: "// MARK: TODO"
   slide: ""
   speaker:
     image_name: "kciter.png"
     name: "이선협"
     company: "Trust Us"
-    bio: "TBD"
+    bio: "// MARK: TODO"
 
 - time: 2
-  title: "TBD"
-  summary: ""
+  title: "// MARK: TODO"
+  summary: "// MARK: TODO"
   slide: ""
   speaker:
     image_name: "gbmksquare.jpg"
     name: "구범모"
     company: "고려대학교"
-    bio: "TBD"
+    bio: "// MARK: TODO"
 
 - time: 3
   title: "try! Swift 후기"
-  summary: ""
+  summary: "// MARK: TODO"
   slide: ""
   speaker:
     image_name: "wanbok.jpg"
     name: "최완복"
     company: "하이퍼커넥트"
-    bio: "TBD"
+    bio: "// MARK: TODO"
 
 
 - time: 4
   title: "Swift; namespace + struct + typealias"
-  summary: ""
+  summary: "// MARK: TODO"
   slide: ""
   speaker:
     image_name: "hyukhur.jpg"
     name: "허혁"
     company: "LINE Plus"
-    bio: "TBD"
+    bio: "// MARK: TODO"
 
 - time: 5
   title: "My Favorite Xcode 8 Shortcuts"
-  summary: ""
+  summary: "// MARK: TODO"
   slide: ""
   speaker:
     image_name: "bobthedev.png"
     name: "Bob Lee"
     company: ""
-    bio: "TBD"
+    bio: "// MARK: TODO"
 
 - time: 6
-  title: "TBD"
-  summary: ""
+  title: "// MARK: TODO"
+  summary: "// MARK: TODO"
   slide: ""
   speaker:
     image_name: "yagom.png"
     name: "야곰"
     company: ""
-    bio: "TBD"
+    bio: "// MARK: TODO"
