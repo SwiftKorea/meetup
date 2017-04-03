@@ -107,6 +107,7 @@ def get_base_data():
         'ownerPhone_body': owner_phone_body,
         'ownerPhone_tail': owner_phone_tail,
         'ownerEmail': owner_email,
+        'isExposed': 1,
         'mapX': map_x,
         'mapY': map_y,
         'locality': locality,
