@@ -1,4 +1,4 @@
-var coordinate = new daum.maps.LatLng(37.510834, 127.0292978);
+var coordinate = new daum.maps.LatLng(37.4972664, 127.0273556);
 
 function drawMap() {
   var container = document.getElementById('map');
