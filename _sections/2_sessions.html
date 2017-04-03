@@ -14,8 +14,8 @@ title: "Sessions"
         {% else %}
           {% assign image_url = site.logo_image | absolute_url %}
         {% endif %}
-        <div class="media-object float-sm-left rounded-circle speaker-image"
-          style="background-image: url('{{ image_url }}')" />
+        <div class="media-object rounded-circle speaker-image hidden-xs-down"
+          style="background-image: url('{{ image_url }}')"></div>
       </div>
       <div class="media-body content">
         <small class="time">
@@ -46,15 +46,19 @@ title: "Sessions"
           {% endif %}
         </p>
         <div class="speaker">
-          <p class="name">{{ session.speaker.name }}</p>
-          <ul>
-            {% if session.speaker.company and session.speaker.company != '' %}
-              <li class="company">{{ session.speaker.company }}</li>
-            {% endif %}
-            {% if session.speaker.bio and session.speaker.bio != '' %}
-              <li class="bio">{{ session.speaker.bio }}</li>
-            {% endif %}
-          </ul>
+          <div class="media-object rounded-circle speaker-image speaker-image-xs hidden-sm-up"
+            style="background-image: url('{{ image_url }}')"></div>
+          <div class="speaker-content">
+            <p class="name">{{ session.speaker.name }}</p>
+            <ul>
+              {% if session.speaker.company and session.speaker.company != '' %}
+                <li class="company">{{ session.speaker.company }}</li>
+              {% endif %}
+              {% if session.speaker.bio and session.speaker.bio != '' %}
+                <li class="bio">{{ session.speaker.bio }}</li>
+              {% endif %}
+            </ul>
+          </div>
         </div>
       </div>
     </li>

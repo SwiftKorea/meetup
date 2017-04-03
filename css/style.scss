@@ -69,6 +69,13 @@ h2 {
     border: 1px solid #dedede;
   }
 
+  .speaker-image-xs {
+    margin-right: 1em;
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+
   .content {
     h5 a {
       display: none;
@@ -90,12 +97,18 @@ h2 {
   }
 
   .speaker {
+    float: left;
+    width: 100%;
     border: 1px solid #eee;
     margin-top: 0.8em;
     padding: 0.5em;
     font-size: 0.9em;
     color: #666;
     list-style: none;
+
+    .speaker-content {
+      float: left;
+    }
 
     .name {
       font-weight: 600;
