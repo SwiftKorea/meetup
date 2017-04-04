@@ -1,41 +1,41 @@
 - time: 0
   title: "GitHub을 이용한 Self Branding"
-  summary: "// MARK: TODO"
+  summary: "오픈소스를 통해 역량을 강화하고, self branding을 해보자!"
   speaker:
     image_name: "younatics.jpg"
     name: "이승윤"
     company: "직방"
-    bio: "// MARK: TODO"
+    bio: "직방에서 iOS개발자로 활동하고 있습니다. 방구할땐 직방!"
 
 - time: 1
   title: "Reactive Programming with Swift"
-  summary: "// MARK: TODO"
+  summary: "Swift에서 Reactive Programming을 해봅시다."
   slide: ""
   speaker:
     image_name: "kciter.png"
     name: "이선협"
-    company: "Trust Us"
-    bio: "// MARK: TODO"
+    company: "Trust Us Co.,Ltd."
+    bio: "NHN NEXT 재학 중이다가 병특 중인 4년차 개발자입니다."
 
 - time: 2
-  title: "// MARK: TODO"
-  summary: "// MARK: TODO"
+  title: "Playground 100% 활용하기"
+  summary: "아직까지 짧은 String operation이나 커스텀 UIView를 만들 때만 Playground를 쓰시나요? iPad Swift Playground는 아직 성능이 안 따라줘서 못 쓴다고요? macOS의 Xcode Playground와 iOS Swift Playground의 잠재력에 대해 알아보아요!"
   slide: ""
   speaker:
     image_name: "gbmksquare.jpg"
     name: "구범모"
     company: "고려대학교"
-    bio: "// MARK: TODO"
+    bio: "2012년부터 iOS 개발을 시작한 iOS 개발자입니다. 취미로 사진을 시작하면서 사진 장비 덕질과 애플 장비 덕질을 동시에 하게돼 통장이 매우 곤란해하고 있습니다. 집에서 거북이 두 마리를 키웁니다. 🐢🐢"
 
 - time: 3
-  title: "try! Swift 후기"
-  summary: "// MARK: TODO"
+  title: "try! Swift 2017 후기"
+  summary: "try! Swift 2017를 다녀온 경험담과 느낀점을 공유합니다. 꼭 살펴보아야할 세션을 소개합니다."
   slide: ""
   speaker:
-    image_name: "wanbok.jpg"
+    image_name: "wanbok.png"
     name: "최완복"
     company: "하이퍼커넥트"
-    bio: "// MARK: TODO"
+    bio: "더 잘하고 싶은 iOS 개발자. 딸바보."
 
 
 - time: 4
@@ -49,14 +49,14 @@
     bio: "// MARK: TODO"
 
 - time: 5
-  title: "My Favorite Xcode 8 Shortcuts"
-  summary: "// MARK: TODO"
+  title: "My Favorite Xcode and MacOS Shortcuts"
+  summary: "생산성을 높이기 위해 제가 주로 사용하는 Xcode와 MacOS 단축기를 공유하고자 합니다"
   slide: ""
   speaker:
     image_name: "bobthedev.png"
     name: "Bob Lee"
-    company: ""
-    bio: "// MARK: TODO"
+    company: "The Cooper Union"
+    bio: "대학생때 창업 망한 이후 지금은 Swift 공부 중. 개인 블로그 https://blog.bobthedeveloper.io/ 운영."
 
 - time: 6
   title: "// MARK: TODO"
