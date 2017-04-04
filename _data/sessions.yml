@@ -40,13 +40,13 @@
 
 - time: 4
   title: "Swift; namespace + struct + typealias"
-  summary: "// MARK: TODO"
+  summary: "스위프트 네임스페이스를 도입해가는 과정에서 얻게 된 교훈을 공유 합니다."
   slide: ""
   speaker:
     image_name: "hyukhur.jpg"
     name: "허혁"
     company: "LINE Plus"
-    bio: "// MARK: TODO"
+    bio: "네이버에서 서버개발하다가 me2day, BAND, LINE 앱들을 만들(었)고 있습니다. 주로 한땀 한땀 코딩을 맡고 있습니다."
 
 - time: 5
   title: "My Favorite Xcode and MacOS Shortcuts"
