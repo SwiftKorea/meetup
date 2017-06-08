@@ -41,7 +41,7 @@
 - time: 4
   title: "Swift; namespace + struct + typealias"
   summary: "스위프트 네임스페이스를 도입해가는 과정에서 얻게 된 교훈을 공유 합니다."
-  slide: ""
+  slide: "https://news.realm.io/kr/news/swift-namespace-typealias/"
   speaker:
     image_name: "hyukhur.jpg"
     name: "허혁"
