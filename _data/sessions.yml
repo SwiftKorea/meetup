@@ -10,7 +10,7 @@
 - time: 1
   title: "Reactive Programming with RxSwift"
   summary: "Swift에서 Reactive Programming을 해봅시다."
-  slide: ""
+  slide: "https://news.realm.io/kr/news/reactive-programming-with-rxswift/"
   speaker:
     image_name: "kciter.png"
     name: "이선협"
