@@ -61,7 +61,7 @@
 - time: 6
   title: "Swift Server-side frameworks"
   summary: "스위프트로 API서버를 구축할 수 있는 프레임워크를 소개하고 비교분석 해봅니다."
-  slide: ""
+  slide: "https://news.realm.io/kr/news/swift-server-side-framework/"
   speaker:
     image_name: "yagom.png"
     name: "야곰"
