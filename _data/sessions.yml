@@ -30,7 +30,7 @@
 - time: 3
   title: "try! Swift 2017 후기"
   summary: "try! Swift 2017를 다녀온 경험담과 느낀점을 공유합니다. 꼭 살펴보아야할 세션을 소개합니다."
-  slide: ""
+  slide: "https://news.realm.io/kr/news/try-swift-tokyo-2017-review/"
   speaker:
     image_name: "wanbok.png"
     name: "최완복"
