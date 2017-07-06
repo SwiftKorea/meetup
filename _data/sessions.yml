@@ -20,7 +20,7 @@
 - time: 2
   title: "Playground 100% 활용하기"
   summary: "아직까지 짧은 String operation이나 커스텀 UIView를 만들 때만 Playground를 쓰시나요? iPad Swift Playground는 아직 성능이 안 따라줘서 못 쓴다고요? macOS의 Xcode Playground와 iOS Swift Playground의 잠재력에 대해 알아보아요!"
-  slide: ""
+  slide: "https://news.realm.io/kr/news/swift-playground/"
   speaker:
     image_name: "gbmksquare.jpg"
     name: "구범모"
