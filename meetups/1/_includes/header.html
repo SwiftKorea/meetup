@@ -21,7 +21,8 @@
 
       <div class="float-md-right navbar-toggleable-sm collapse" id="navbar">
         <ul class="nav navbar-nav">
-          {% for section in site.sections %}
+          {% assign sections = site.sections | where: "meetup", "1" %}
+          {% for section in sections %}
             <li class="nav-item">
               <a class="nav-link" href="#{{ section.title | slugify }}">{{ section.title }}</a>
             </li>

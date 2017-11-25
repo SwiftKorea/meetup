@@ -1,16 +1,17 @@
 ---
 title: "Sessions"
+meetup: 1
 ---
 
 <ul class="media-list">
-  {% for session in site.data.sessions %}
+  {% for session in site.data.1.sessions %}
     {% assign session_id = "session"
       | append: "-time-"
       | append: session.time %}
     <li class="media session" id="{{ session_id }}">
       <div class="media-left">
         {% if session.speaker.image_name and session.speaker.image_name != '' %}
-          {% assign image_url = "/images/speakers/" | append: session.speaker.image_name | relative_url %}
+          {% assign image_url = "/meetups/1/images/speakers/" | append: session.speaker.image_name | relative_url %}
         {% else %}
           {% assign image_url = site.logo_image | absolute_url %}
         {% endif %}
