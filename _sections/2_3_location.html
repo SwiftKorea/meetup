@@ -1,0 +1,28 @@
+---
+title: "Location"
+meetup: 2
+---
+
+<div id="map" style="height: 25em;"></div>
+<script type="text/template" id="info-window-template">
+  <div class="info-window">
+    <h5>구글 캠퍼스 서울</h5>
+    <p>서울특별시 강남구 영동대로 417 오토웨이타워 지하2층<br />(삼성역 3번 출구에서 도보 3분)</p>
+    <a href="http://dmaps.kr/26teb" target="_blank">새 창에서 보기</a>
+  </div>
+</script>
+
+<div class="gallery">
+  <div class="gallery-inner">
+    {% for file in site.static_files %}
+      {% if file.path contains 'images/venue/' %}
+        <div class="gallery-item">
+          {% assign src = file.path | remove_first: "/" | relative_url %}
+          <a href="{{ src }}" target="_blank">
+            <img src="{{ src }}" width="300" />
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

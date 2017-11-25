@@ -1,0 +1,22 @@
+---
+title: "Sponsors"
+meetup: 2
+---
+
+<div class="row">
+  {% for sponsor in site.data.2.sponsors %}
+    <div class="col-xs-12 col-sm-6 col-md-3 sponsor-item">
+      <div class="sponsor-image col-xs-12">
+        <a href="{{ sponsor.url }}" target="_blank">
+          {% assign image_url = "/meetups/2/images/sponsors/" | append: sponsor.image_name | relative_url %}
+          <img src="{{ image_url }}" width="200px">
+        </a>
+      </div>
+      <br />
+      <div class="col-xs-12">
+        <strong>{{ sponsor.name }}</strong>
+        <p>{{ sponsor.description }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

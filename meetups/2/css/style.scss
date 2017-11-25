@@ -1,0 +1,167 @@
+---
+---
+@charset "utf-8";
+
+header {
+  margin-bottom: 1rem;
+
+  img {
+    margin-top: 2px;
+  }
+  .navbar-brand {
+    margin-left: 10px;
+  }
+}
+
+footer {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+  font-size: 85%;
+}
+
+h2 {
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+#about {
+  .info {
+    border: 1px solid #dedede;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    .btn-wrap {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
+
+  .fb_iframe_widget,
+  .fb_iframe_widget span,
+  .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+    min-width: 200px;
+  }
+}
+
+#schedule {
+  td.cell-hall {
+    min-width: 6em;
+  }
+  td.cell-session {
+    min-width: 10em;
+  }
+}
+
+.session {
+  margin-top: 2em;
+
+  .speaker-image {
+    margin-bottom: 1em;
+    margin-right: 2em;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 1px solid #dedede;
+  }
+
+  .speaker-image-xs {
+    margin-right: 1em;
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+
+  .content {
+    h5 a {
+      display: none;
+    }
+    h5:hover {
+      a:before {
+        content: " ";
+      }
+      a {
+        display: inline;
+        text-decoration: none;
+        font-size: 70%;
+      }
+    }
+  }
+
+  .summary {
+    margin-bottom: 0.2em;
+  }
+
+  .speaker {
+    float: left;
+    width: 100%;
+    border: 1px solid #eee;
+    margin-top: 0.8em;
+    padding: 0.5em;
+    font-size: 0.9em;
+    color: #666;
+    list-style: none;
+
+    .speaker-content {
+      float: left;
+    }
+
+    .name {
+      font-weight: 600;
+      margin-bottom: 0.2em;
+    }
+
+    ul {
+      padding-left: 1.8em;
+    }
+  }
+}
+
+.session:not(:last-child) {
+  margin-bottom: 3em;
+}
+
+#location {
+  .info-window {
+    padding: 10px;
+    width: 230px;
+
+    h5 {
+      font-size: 1em;
+    }
+    p {
+      color: #666;
+      font-size: 0.8em;
+      margin-bottom: 0.6em;
+    }
+  }
+
+  .gallery {
+    overflow-x: scroll;
+    .gallery-inner {
+      width: 10000px;
+    }
+    .gallery-item {
+      display: inline;
+      float: left;
+    }
+  }
+}
+
+#sponsors {
+  .sponsor-image {
+    line-height: 100px;
+  }
+}
+
+footer {
+  text-align: center;
+  .fb-like {
+    display: block;
+    margin-top: 1em;
+  }
+}

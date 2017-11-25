@@ -1,0 +1,12 @@
+---
+layout: "2"
+permalink: "2"
+---
+
+{% assign sections = site.sections | where: "meetup", "2" %}
+{% for section in sections %}
+  <section id="{{ section.title | slugify }}">
+    <h2>{{ section.title }}</h2>
+    {{ section.content }}
+  </section>
+{% endfor %}

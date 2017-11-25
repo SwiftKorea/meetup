@@ -1,0 +1,63 @@
+---
+title: "Schedule"
+meetup: 2
+---
+
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <th class="hidden-xs-down">#</th>
+      <th>시간</th>
+      <th>일정</th>
+    </thead>
+
+    <tbody>
+      {% assign times = site.data.2.sessions | map: "time" | uniq %}
+      {% for time in times %}
+        <tr>
+          <td class="hidden-xs-down">#{{ time | plus: 1 }}</td>
+          <td>
+            {% if time == 0 %}
+              {% assign time_str = "19:30 - 19:50" %}
+            {% elsif time == 1 %}
+              {% assign time_str = "19:50 - 20:10" %}
+            {% elsif time == 2 %}
+              {% assign time_str = "20:10 - 20:30" %}
+            {% elsif time == 3 %}
+              {% assign time_str = "20:30 - 20:50" %}
+            {% elsif time == 4 %}
+              {% assign time_str = "20:50 - 21:10" %}
+            {% elsif time == 5 %}
+              {% assign time_str = "21:10 - 21:30" %}
+            {% else %}
+              {% assign time_str = time %}
+            {% endif %}
+            <span class="hidden-sm-down">{{ time_str }}</span>
+            <span class="hidden-md-up">{{ time_str | split: "-" | first }}</span>
+          </td>
+          {% for session in site.data.2.sessions %}
+            {% if session.time == time %}
+              <td class="cell-session">
+                {% assign session_id = "session"
+                  | append: "-time-"
+                  | append: session.time %}
+                <a href="#{{ session_id }}">{{ session.title }}</a>
+                <br />
+                {% if session.speaker.company != empty %}
+                  <small class="hidden-sm-down">
+                    {{ session.speaker.name }} ({{ session.speaker.company }})
+                  </small>
+                  <small class="hidden-md-up">
+                    {{ session.speaker.name }}
+                  </small>
+                {% else %}
+                  <small>{{ session.speaker.name }}</small>
+                {% endif %}
+              </td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
