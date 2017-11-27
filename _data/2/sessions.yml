@@ -1,36 +1,36 @@
 - time: 0
-  title: "곧 공개됩니다."
-  summary: ""
+  title: "ReSwift로 리액티브 프로그래밍 구현하기"
+  summary: "자바스크립트 디자인 패턴인 Redux를 Swift로 구현한 라이브러리 ReSwift로 쉽고 빠르게 리액티브한 앱을 만드는 과정을 소개합니다."
   slide: null
   speaker:
-    image_name: null
-    name: "😊"
-    company: ""
-    bio: ""
+    image_name: "amy.jpg"
+    name: "손은주"
+    company: "매스프레소"
+    bio: "효율적 잡식성 개발자입니다"
 
 - time: 1
   title: "곧 공개됩니다."
-  summary: ""
+  summary: null
   slide: null
   speaker:
-    image_name: null
-    name: "😃"
-    company: ""
-    bio: ""
+    image_name: "innocarpe.jpeg"
+    name: "김우성"
+    company: "StyleShare"
+    bio: "소프트웨어 장인이 되고 싶은, 동시에 유저를 먼저 생각하려 노력하는 개발자."
 
 - time: 2
   title: "곧 공개됩니다."
   summary: ""
   slide: null
   speaker:
-    image_name: null
-    name: "😎"
+    image_name: "giftbot.jpg"
+    name: "이봉원"
     company: ""
-    bio: ""
+    bio: "금융 ERP, BSC 등에서 iOS 개발자로 탈바꿈한 뒤로 지금은 iOS 에 집중하고 있습니다."
 
 - time: 3
   title: "Break time"
-  summary: "화장실을 다녀올 기회입니다."
+  summary: "화장실에 다녀올 기회입니다."
   speaker:
     image_name: null
     name: "☕️"
@@ -38,21 +38,21 @@
     bio: ""
 
 - time: 4
-  title: "곧 공개됩니다."
-  summary: ""
+  title: "iOS와 케라스의 만남"
+  summary: "케라스를 이용한 딥러닝 모델 학습에서 부터 iOS에 적용하기까지 일련의 과정 소개"
   slide: null
   speaker:
-    image_name: null
-    name: "😉"
+    image_name: "mijeong.jpg"
+    name: "전미정"
     company: ""
-    bio: ""
+    bio: "자유로운 개발자 미정입니다. 고양이와 함께 개발하는걸 좋아합니다."
 
 - time: 5
-  title: "곧 공개됩니다."
+  title: "스위프트 코드리뷰로 개선하는 과정에서 찾은 좋은 코드스타일 예시"
   summary: ""
   slide: null
   speaker:
-    image_name: null
-    name: "😆"
+    image_name: "godrm.jpg"
+    name: "김정"
     company: ""
-    bio: ""
+    bio: "NeXT를 갈망하던 소년에 APPLE을 열망하는 청년에서 NEXT에서 시인을 꿈꾸던 디지털 엔지니어"
