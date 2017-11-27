@@ -12,7 +12,7 @@
           aria-label="Toggle navigation">
         </button>
         <a class="float-xs-left" href="#">
-          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="float-xs-left" height="34px">
+          <img src="{{ data.metadata.logo | relative_url }}" alt="{{ data.metadata.title }}" class="float-xs-left" height="34px">
           <span class="navbar-brand">
             Swift Korea Meetup
           </span>
@@ -21,14 +21,13 @@
 
       <div class="float-md-right navbar-toggleable-sm collapse" id="navbar">
         <ul class="nav navbar-nav">
-          {% assign sections = site.sections | where: "meetup", "1" %}
           {% for section in sections %}
             <li class="nav-item">
               <a class="nav-link" href="#{{ section.title | slugify }}">{{ section.title }}</a>
             </li>
           {% endfor %}
           <li class="nav-item">
-            <a class="btn btn-primary btn-block btn-onoffmix hidden-xs-up" href="{{ site.onoffmix }}" target="_blank">
+            <a class="btn btn-primary btn-block btn-onoffmix hidden-xs-up" href="{{ data.metadata.ticket_url }}" target="_blank">
               참가신청
             </a>
           </li>

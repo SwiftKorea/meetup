@@ -1,0 +1,9 @@
+<div class="container">
+  {% for section in page.sections %}
+    <section id="{{ section.title | slugify }}">
+      <h2>{{ section.title }}</h2>
+      {% assign filename = "_includes/sections/" | append: section.filename %}
+      {% include_relative {{ filename }} %}
+    </section>
+  {% endfor %}
+</div>

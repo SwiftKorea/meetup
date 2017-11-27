@@ -1,8 +1,3 @@
----
-title: "Schedule"
-meetup: 1
----
-
 <div class="table-responsive">
   <table class="table">
     <thead>
@@ -12,7 +7,7 @@ meetup: 1
     </thead>
 
     <tbody>
-      {% assign times = site.data.1.sessions | map: "time" | uniq %}
+      {% assign times = data.sessions | map: "time" | uniq %}
       <tr>
         <td class="hidden-xs-down">-</td>
         <td>
@@ -49,7 +44,7 @@ meetup: 1
             <span class="hidden-sm-down">{{ time_str }}</span>
             <span class="hidden-md-up">{{ time_str | split: "-" | first }}</span>
           </td>
-          {% for session in site.data.1.sessions %}
+          {% for session in data.sessions %}
             {% if session.time == time %}
               <td class="cell-session">
                 {% assign session_id = "session"

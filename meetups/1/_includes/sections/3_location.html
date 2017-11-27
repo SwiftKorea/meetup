@@ -1,14 +1,9 @@
----
-title: "Location"
-meetup: 1
----
-
 <div id="map" style="height: 25em;"></div>
 <script type="text/template" id="info-window-template">
   <div class="info-window">
-    <h5>하이퍼커넥트</h5>
-    <p>서울특별시 서초구 서초대로78길 5 대각빌딩 14층<br />(강남역 8번 출구에서 도보 30초)</p>
-    <a href="http://dmaps.kr/48hzz" target="_blank">새 창에서 보기</a>
+    <h5>{{ data.metadata.venue.name }}</h5>
+    <p>{{ data.metadata.venue.address }}<br />({{ data.metadata.venue.verbose }})</p>
+    <a href="{{ data.metadata.venue.url }}" target="_blank">새 창에서 보기</a>
   </div>
 </script>
 

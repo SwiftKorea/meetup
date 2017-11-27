@@ -1,14 +1,9 @@
----
-title: "Location"
-meetup: 2
----
-
 <div id="map" style="height: 25em;"></div>
 <script type="text/template" id="info-window-template">
   <div class="info-window">
-    <h5>구글 캠퍼스 서울</h5>
-    <p>서울특별시 강남구 영동대로 417 오토웨이타워 지하2층<br />(삼성역 3번 출구에서 도보 3분)</p>
-    <a href="http://dmaps.kr/26teb" target="_blank">새 창에서 보기</a>
+    <h5>{{ data.metadata.venue.name }}</h5>
+    <p>{{ data.metadata.venue.address }}<br />({{ data.metadata.venue.verbose }})</p>
+    <a href="{{ data.metadata.venue.url }}" target="_blank">새 창에서 보기</a>
   </div>
 </script>
 
