@@ -36,7 +36,7 @@ function updateMapDraggable(map) {
 }
 
 $(document).ready(function() {
-  $('.btn-onoffmix').click(function() {
+  $('.btn-ticket').click(function() {
     fbq('track', 'ViewContent');
   });
 
