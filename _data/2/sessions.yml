@@ -19,14 +19,14 @@
     bio: "소프트웨어 장인이 되고 싶은, 동시에 유저를 먼저 생각하려 노력하는 개발자."
 
 - time: 2
-  title: "곧 공개됩니다."
-  summary: ""
+  title: "Simulator Customizing & Testing"
+  summary: "Xcode9 시뮬레이터 신기능 소개 / simctl 을 통한 커스터마이징 & 테스팅"
   slide: null
   speaker:
-    image_name: "giftbot.jpg"
+    image_name: "giftbot.jpeg"
     name: "이봉원"
     company: ""
-    bio: "금융 ERP, BSC 등에서 iOS 개발자로 탈바꿈한 뒤로 지금은 iOS 에 집중하고 있습니다."
+    bio: "오늘도 개발"
 
 - time: 3
   title: "Break time"
