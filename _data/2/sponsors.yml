@@ -1,12 +1,17 @@
 - name: StyleShare
   url: https://www.stylesha.re
   image_name: styleshare.png
-  description: 🙄
+  description: 기념품 티셔츠 후원
 
 - name: Hyperconnet
   url: https://hpcnt.com
   image_name: hyperconnect.png
-  description: 🤔
+  description: 기념품 노트 및 머그컵 등 후원
+
+- name: 토스
+  url: https://toss.im/
+  image_name: toss.png
+  description: 기념품 노트 후원
 
 - name: Realm
   url: https://realm.io
