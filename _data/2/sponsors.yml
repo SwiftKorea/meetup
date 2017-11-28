@@ -22,3 +22,8 @@
   url: http://blog.yagom.net/
   image_name: yagom.png
   description: Swift 개발 서적 후원
+
+- name: 트로스트
+  url: https://trost.co.kr/
+  image_name: trost.png
+  description: 스티커 후원
