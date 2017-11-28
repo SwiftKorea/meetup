@@ -3,18 +3,14 @@
     <p>기념품을 후원해주시면 정원 외 5명의 초대권을 드립니다.</p>
   </div>
   {% for sponsor in data.sponsors %}
-    <div class="col-xs-12 col-sm-6 col-md-3 sponsor-item">
+    <div class="col-xs-12 col-sm-16 col-md-6 col-lg-3 sponsor-item">
       <div class="sponsor-image col-xs-12">
         <a href="{{ sponsor.url }}" target="_blank">
           {% assign image_url = basedir | append: "/images/sponsors/" | append: sponsor.image_name | relative_url %}
-          <img src="{{ image_url }}" width="200px">
+          <img src="{{ image_url }}">
         </a>
       </div>
       <br />
-      <div class="col-xs-12">
-        <strong>{{ sponsor.name }}</strong>
-        <p>{{ sponsor.description }}</p>
-      </div>
     </div>
   {% endfor %}
 </div>

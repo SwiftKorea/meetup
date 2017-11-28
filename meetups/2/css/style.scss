@@ -153,8 +153,19 @@ h2 {
 }
 
 #sponsors {
+  .sponsor-item {
+    margin-bottom: 20px;
+  }
   .sponsor-image {
+    max-width: 200px;
+    height: 100px;
+    text-align: center;
     line-height: 100px;
+    img {
+      position: relative;
+      max-width: 200px;
+      max-height: 100px;
+    }
   }
 }
 
