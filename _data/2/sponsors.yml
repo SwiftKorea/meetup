@@ -27,3 +27,8 @@
   url: https://trost.co.kr/
   image_name: trost.png
   description: 스티커 후원
+
+- name: Bob the Developer
+  url: https://www.bobthedeveloper.io/
+  image_name: bobthedev.jpg
+  description: 애플 블루투스 키보드 후원
