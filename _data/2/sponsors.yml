@@ -13,11 +13,6 @@
   image_name: toss.png
   description: 기념품 노트 후원
 
-- name: Realm
-  url: https://realm.io
-  image_name: realm.png
-  description: 비디오 촬영 및 슬라이드 정리 공유
-
 - name: 야곰
   url: http://blog.yagom.net/
   image_name: yagom.png
