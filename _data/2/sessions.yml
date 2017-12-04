@@ -9,8 +9,8 @@
     bio: "효율적 잡식성 개발자입니다"
 
 - time: 1
-  title: "곧 공개됩니다."
-  summary: null
+  title: "Behavior Testing 시작하기"
+  summary: "Quick, Nimble, Stubber 와 함께 Behavior Testing 을 시작하는 방법을 소개합니다."
   slide: null
   speaker:
     image_name: "innocarpe.jpeg"
