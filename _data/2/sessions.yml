@@ -1,6 +1,7 @@
 - time: 0
   title: "ReSwift로 리액티브 프로그래밍 구현하기"
   summary: "자바스크립트 디자인 패턴인 Redux를 Swift로 구현한 라이브러리 ReSwift로 쉽고 빠르게 리액티브한 앱을 만드는 과정을 소개합니다."
+  video: https://youtu.be/H0WPEAnC5YQ
   slide: null
   speaker:
     image_name: "amy.jpg"
@@ -11,6 +12,7 @@
 - time: 1
   title: "프로토콜을 활용한 비동기 네트워킹 로직 테스팅"
   summary: "Swift의 프로토콜과 Stubber 라이브러리를 통해 네트워킹을 사용하는 비즈니스 로직을 테스트하는 방법을 소개합니다."
+  video: https://youtu.be/R3Bp3c8O3WM
   slide: null
   speaker:
     image_name: "innocarpe.jpeg"
@@ -21,6 +23,7 @@
 - time: 2
   title: "Simulator Customizing & Testing"
   summary: "Xcode9 시뮬레이터 신기능 소개 / simctl 을 통한 커스터마이징 & 테스팅"
+  video: https://youtu.be/4i2EBnmUMcs
   slide: null
   speaker:
     image_name: "giftbot.jpeg"
@@ -40,6 +43,7 @@
 - time: 4
   title: "iOS와 케라스의 만남"
   summary: "케라스를 이용한 딥러닝 모델 학습에서 부터 iOS에 적용하기까지 일련의 과정 소개"
+  video: https://youtu.be/V4uRLSz9Ou0
   slide: null
   speaker:
     image_name: "mijeong.jpg"
@@ -50,6 +54,7 @@
 - time: 5
   title: "스위프트를 여행하는 히치하이커를 위한 스타일 안내서"
   summary: "코드리뷰로 개선하는 과정에서 찾은 좋은 스위프트 스타일 예시"
+  video: https://youtu.be/d1eA-r_Cd2Y
   slide: null
   speaker:
     image_name: "godrm.jpg"

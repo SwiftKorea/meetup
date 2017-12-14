@@ -35,10 +35,19 @@
         <h5>{{ session.title }}<a href="#{{ session_id }}">🔗</a></h5>
         <p class="summary">
           {{ session.summary }}
-          {% if session.slide and session.slide != empty %}
-            <a href="{{ session.slide }}" target="_blank">(발표 영상 및 요약 보기)</a>
-          {% endif %}
         </p>
+        <div>
+          {% if (session.video and session.video != empty) or (session.slide and session.slide != empty) %}
+            <ul>
+            {% if session.video and session.video != empty %}
+              <li><a href="{{ session.video }}" target="_blank">발표 영상 보기</a></li>
+            {% endif %}
+            {% if session.slide and session.slide != empty %}
+              <li><a href="{{ session.slide }}" target="_blank">슬라이드 보기</a></li>
+            {% endif %}
+            </ul>
+          {% endif %}
+        </div>
         <div class="speaker">
           <div class="media-object rounded-circle speaker-image speaker-image-xs hidden-sm-up"
             style="background-image: url('{{ image_url }}')"></div>
