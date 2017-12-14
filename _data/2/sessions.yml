@@ -44,7 +44,7 @@
   title: "iOS와 케라스의 만남"
   summary: "케라스를 이용한 딥러닝 모델 학습에서 부터 iOS에 적용하기까지 일련의 과정 소개"
   video: https://youtu.be/V4uRLSz9Ou0
-  slide: null
+  slide: https://www.slideshare.net/MijeongJeon1/ios-84097139
   speaker:
     image_name: "mijeong.jpg"
     name: "전미정"
