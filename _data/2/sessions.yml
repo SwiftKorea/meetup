@@ -13,7 +13,7 @@
   title: "프로토콜을 활용한 비동기 네트워킹 로직 테스팅"
   summary: "Swift의 프로토콜과 Stubber 라이브러리를 통해 네트워킹을 사용하는 비즈니스 로직을 테스트하는 방법을 소개합니다."
   video: https://youtu.be/R3Bp3c8O3WM
-  slide: null
+  slide: https://speakerdeck.com/innocarpe/async-network-logic-testing-using-protocol-test-stub
   speaker:
     image_name: "innocarpe.jpeg"
     name: "김우성"
