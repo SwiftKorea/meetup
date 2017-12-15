@@ -2,7 +2,7 @@
   title: "ReSwift로 리액티브 프로그래밍 구현하기"
   summary: "자바스크립트 디자인 패턴인 Redux를 Swift로 구현한 라이브러리 ReSwift로 쉽고 빠르게 리액티브한 앱을 만드는 과정을 소개합니다."
   video: https://youtu.be/H0WPEAnC5YQ
-  slide: null
+  slide: https://www.slideshare.net/ssuser433513/reswift
   speaker:
     image_name: "amy.jpg"
     name: "손은주"
