@@ -1,7 +1,6 @@
 title: 'Swift Korea Meetup'
 description: 'Swift Korea 커뮤니티에서 주최하는 개발자 행사입니다.'
 logo: '/meetups/1/images/logo.svg'
-logo_image: '/meetups/1/images/logo-image.png'
 baseurl: '/meetup'
 url: 'https://swiftkorea.github.io'
 onoffmix: 'http://onoffmix.com/event/96420'
