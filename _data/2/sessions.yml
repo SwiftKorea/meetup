@@ -24,7 +24,7 @@
   title: "Simulator Customizing & Testing"
   summary: "Xcode9 시뮬레이터 신기능 소개 / simctl 을 통한 커스터마이징 & 테스팅"
   video: https://youtu.be/4i2EBnmUMcs
-  slide: null
+  slide: https://www.slideshare.net/itpersons/simulator-customizing-testing-for-xcode-9
   speaker:
     image_name: "giftbot.jpeg"
     name: "이봉원"
